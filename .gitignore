@@ -1,0 +1,66 @@
+# 操作系统生成文件
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# macOS 终端/临时文件
+*.swp
+*.swo
+*~
+# 临时plist、临时二进制产物
+/tmp/
+*.plist.tmp
+
+# 逆向相关：禁止提交任何二进制样本！
+*.bin
+*.mach-o
+*.dylib
+*.app/
+*.ipa
+*.pcap
+*.pcapng
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Shell脚本临时日志、输出
+*.log
+out/
+output/
+*.sh
+
+# 编辑器配置
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 本地私有配置（DSH会话缓存、本地密钥）
+sessions/
+redteam/
+logs/
+# 本地个人环境变量、私有笔记
+local.env
+private-notes.md
+tencent-foxmail-bug-report.md
+
